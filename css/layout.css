@@ -1,0 +1,45 @@
+body{
+	background:#60cae4;
+}
+body *{
+	font-family: "微软雅黑",'Arial','Tahoma','Verdana','helvetica','microsoft yahei',"SimHei","黑体",sans-serif;
+}
+#main{
+	margin:auto;
+	width:1000px;
+}
+.click{
+	cursor: pointer;
+}
+.click:hover,input:hover{
+	outline:none;
+}
+.clear{
+	clear:both;
+}
+
+#header{
+	background:url("/img/geren/top.png");
+	width:1000px;
+	height:67px;
+}
+#header ul{
+	width:432px;
+	height:67px;
+	margin-left:260px;
+	padding:0;
+}
+#header ul li{
+	display:block;
+	width:144px;
+	height:60px;
+	float:left;
+	margin-top:3px;
+	line-height:60px;
+	font-size:30px;
+	text-align:center;
+	color:#fff;
+}
+#header ul li:hover{
+	background:url("/img/geren/top_click.png");
+}

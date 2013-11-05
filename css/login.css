@@ -1,0 +1,83 @@
+#main{
+	width:344px;
+	height:577px;
+}
+#main{
+	position: relative;
+	background:url("/img/login/body.png");
+}
+#main form{
+	position: relative;
+	width:280px;
+	height:250px;
+	top:300px;
+	left:30px;
+}
+#login_form{
+	display:none;
+}
+#register_form{
+
+}
+.login_ipt{
+	position: relative;
+	width:280px;
+	height:45px;
+	margin-bottom:30px;
+}
+input{
+	border:none;
+	outline:none;
+}
+.login_ipt input,.input_tips{
+	height:43px;
+	width:240px;
+	position: absolute;
+	left: 40px;
+	top:0px;
+	border-radius:0 5px 5px 0;
+	font-size: 17px;
+	line-height: 43px;
+	text-indent:10px;
+	color: #aaa;
+	cursor: text;
+}
+
+.login_label{
+	position: absolute;
+	height:45px;
+	width:40px;
+	display:block;
+}
+
+#username_label{
+	background: url("/img/login/user.png");
+}
+#password_label{
+	background: url("/img/login/password.png");
+}
+
+.switch_tab{
+	position: absolute;
+	width:80px;
+}
+#login_tab{
+	top:170px;
+	left:20px;
+	height:80px;
+	background: url("/img/login/login_tab2.png");
+}
+#register_tab{
+	height:80px;
+	top:200px;
+	left:110px;
+	background: url("/img/login/login_tab.png");
+}
+#loginBtn{
+	height:45px;
+	width:280px;
+	text-decoration: none;
+	border: none;
+	padding: 0;
+	background: url("/img/login/login.png");
+}

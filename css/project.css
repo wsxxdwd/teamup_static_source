@@ -1,0 +1,36 @@
+#content{
+	width:886px;
+	min-height:200px;
+	margin:auto;
+}
+.nav_line{
+	background:url(../img/project/nav_line.png);
+	width:886px;
+	height:62px;
+	margin-top:80px;
+	margin-bottom:40px;
+}
+.pro_list{
+	width:1000px;
+	min-height:200px;
+	position:relative;
+}
+.project_box{
+	float:left;
+	width:210px;
+	height:250px;
+	background:#d3f3f9;
+	margin-right:30px;
+	margin-bottom:50px;
+}
+.project_img{
+	width:190px;
+	height:190px;
+	margin:10px;
+}
+.project_name{
+	color:#000;
+	font-size:22px;
+	text-align:center;
+	margin-top:-10px;
+}
